@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--
+	Karla Valerie Art
+	author: Karla Rodriguez
+	date: 11/29/22
+	filename: kva_commissions.html
+	-->
+	
+	<title>Karla Rodriguez 13603</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="kva_navicon.css" />
+	<link rel="stylesheet" href="kva_styles.css" />
+</head>
+
+<body>
+	<header id="topOfPage">
+		<a id="gccHome" href="https://www.gccaz.edu/"><img src="kva_header2.jpeg" alt="GCC Homepage" /></a>
+	</header>
+	
+	<nav class="horizontal">
+		<a id="navicon" href="#"><img src="kva_navicon.png" alt="" /></a>
+		<ul>
+			<li><a href="kva_home.html">home</a></li>
+			<li><a href="kva_commissions.html">commissions</a></li>
+			<li><a href="kva_contact.html">contact</a></li>
+			<li><a href="kva_about.html">about me</a></li>
+			<li><a href="kva_reviews.html">reviews</a></li>
+			<li><a href="kva_events.html">events</a></li>
+			<li><a href="kva_inspiration.html">inspiration</a></li>
+			<li><a href="#bottomOfPage">links</a></li>
+		</ul>
+	</nav>
+	
+	<section>
+		<h1>Commission A Piece</h1>
+		<p>Please fill out this commission request form, <br />and I will contact you within 24 hours. Thank you!
+	</section>
+	
+	<form id="commission">
+		<fieldset id="custInfo">
+		<legend>Customer Information</legend>
+			<div class="formRow">
+				<label for="fname">First Name</label>
+			</div>
+			
+			<div class="formRow">
+				<input name="custFname" id="fname" type="text" required />
+			</div>
+			
+			<div class="formRow">
+				<label for="name">Last Name</label>
+			</div>
+			
+			<div class="formRow">
+				<input name="custLfame" id="lname" type="text" required />
+			</div>
+			
+			<div class="formRow">
+				<label for="phone">Phone Number</label>
+			</div>
+			
+			<div class="formRow">
+				<input name="custPhone" id="phone" type="text" required />
+			</div>
+			
+			<div class="formRow">
+				<label for="email">Email</label>
+			</div>
+			
+			<div class="formRow">
+			<input name="custEmail" id="email" type="text" required />
+			</div>
+		</fieldset>
+		
+		<fieldset id="requestInfo">
+		<legend>Commission Request</legend>
+			<div class="formRow">
+				<label for="describe">Describe the Portrait</label>
+				<textarea name="requestDescribe" id="describe"></textarea>
+			</div>
+			
+			<div class="formRow">
+				<label for="size">Size of Portrait</label>
+				<select name="requestSize" id="size">
+					<option value="5x7">5x7 in</option>
+					<option value="8x10">8x10 in</option>
+					<option value="9x12" selected>9x12 in</option>
+				</select>
+			</div>
+			
+			<div class="formRow">
+				<label for="medium">Art Medium</label>
+				<fieldset class="optGroup">
+					<label for="cpencil">Color Pencil</label>
+					<input name="mcpencil" id="cpencil" value="colorPencil" type="radio" />
+					
+					<label for="charcoal">Charcoal</label>
+					<input name="mcharcoal" id="charcoal" value="charcoal" type="radio" />
+					
+					<label for="oil">Oil Paint</label>
+					<input name="moil" id="oil" value="oilPaint" type="radio" />
+					
+					<label for="watercolor">Watercolor</label>
+					<input name="mwatercolor" id="watercolor" value="watercolor" type="radio" />
+				</fieldset>
+			</div>
+			
+			<div class="formRow">
+				<label for="special">Any Other Special Requests?</label>
+				<textarea name="requestSpecial" id="special"></textarea>
+			</div>
+		</fieldset>
+		
+		<div id="buttons">
+			<input type="submit" value="Submit Request Form" />
+			<input type="reset" value="Cancel" />
+		</div>
+	</form>
+	
+	<footer id="bottomOfPage">
+		<nav id="footerLinks">
+		<ul>
+			<li><a href="https://www.maricopa.edu/">maricopa.edu</a></li>
+			<li><a href="https://learn.maricopa.edu/">learn.maricopa.edu</a></li>
+			<li><a href="#topOfPage">Back to Top</a></li>
+			<li><p>Karla Rodriguez 13603</p><li>
+		</ul>
+		</nav>
+	</footer>
+</body>
+</html>

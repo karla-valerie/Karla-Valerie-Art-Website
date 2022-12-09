@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+/* Basic web page styles */
+html {
+	background-color: rgb(217,242,255);
+}
+
+body {
+	margin: 0px;
+}
+header, div#gallery, footer {
+	text-align: center;
+	
+}
+
+/* nav styles */
+nav ul{
+	line-height:2em;
+	list-style-type: none;
+	padding-left: 5px;
+	font-family: optima, sans-serif;
+	text-decoration: none;
+	margin: 0px;
+	padding: 10px;
+	border-radius: 0px 60px 60px 0px; 
+	background-color: rgb(242,251,255);
+}
+
+nav.horizontal {
+	float: left;
+	position: fixed;
+	z-index: 1;
+}
+
+nav a{
+	text-decoration: none;
+	color: rgb(105,39,85);
+}
+
+/* body Styles */
+body section#title {
+	text-align: center;
+	color: rgb(105,39,85);
+	font-family: Didot, serif;
+	font-weight:100;
+}
+	
+body section#title h1 {
+	font-size: 3em;
+	font-style: italic;
+	font-weight:100;
+	font-family: Bookman, "URW Bookman L", serif;
+}
+
+body section#title h3 {
+	margin-bottom: 39.840px;
+}
+
+/*Other pages styles*/
+
+form, h1, h2, h3, p, dl, dd, li {
+	color:rgb(105,39,85);
+}
+
+/*contact page*/
+
+div.videos {
+	margin: 0px;
+	background-color: rgb(217,242,255); 
+}
+
+table#contact {
+	color: rgb(105,39,85);
+	text-align: center;
+}
+
+/*Reviews page*/
+article#reviews {
+	float: left;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+article#reviews h1 {
+	text-shadow: rgb(24,9,64) 5px 5px 8px;
+}
+
+article#reviews p:first-child:first-letter {
+	float: left;
+	font-size: 2em;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 0px;
+}
+
+/*Events page*/
+
+article#events dd, article#events dl{
+	padding: 10px;
+}
+
+/*Inspiration page*/
+section#inspo {
+	text-align: center;
+}
+
+section#inspo ol{
+	list-style-type: upper-roman;
+}
+
+section#inspo h1 {
+	font-size: 3em;
+	font-style: italic;
+	font-weight:100;
+	font-family: Bookman, "URW Bookman L", serif;
+}
+
+/*footer styles*/
+body footer {
+	clear: both;
+	background-color: white;
+	color: rgb(105,39,85);
+	text-align: center;
+}
